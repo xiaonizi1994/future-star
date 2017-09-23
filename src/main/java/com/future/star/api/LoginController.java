@@ -17,7 +17,6 @@ public class LoginController {
         Map<String,String> map=new HashMap<>();
         if(userDTO.getName().equals("future")&&userDTO.getPassword().equals("123")){
             map.put("message","login sucessful");
-            return map;
         }
         else{
             map.put("message","login failed");
