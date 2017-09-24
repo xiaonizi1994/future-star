@@ -1,15 +1,12 @@
-package com.future.star.service;
+package future_star.service;
 
-import com.future.star.dto.UserDTO;
+import future_star.dto.UserDTO;
 import org.springframework.stereotype.Service;
 
 
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
-import java.util.Objects;
 import java.util.concurrent.atomic.AtomicLong;
-import java.util.stream.Collectors;
 
 @Service
 public class UserService {

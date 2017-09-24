@@ -1,4 +1,4 @@
-package com.future.star.api;
+package future_star.api;
 
 
 import org.springframework.web.bind.annotation.GetMapping;

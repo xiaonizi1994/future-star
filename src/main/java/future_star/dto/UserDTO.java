@@ -1,4 +1,4 @@
-package com.future.star.dto;
+package future_star.dto;
 
 import java.util.HashMap;
 import java.util.Map;

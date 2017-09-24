@@ -1,11 +1,10 @@
-package com.future.star.api;
+package future_star.api;
 
-import com.future.star.dto.UserDTO;
-import com.future.star.service.UserService;
+import future_star.dto.UserDTO;
+import future_star.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import javax.swing.plaf.ListUI;
 import java.util.*;
 
 @RestController

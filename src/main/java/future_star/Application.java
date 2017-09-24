@@ -1,4 +1,4 @@
-package com.future.star;
+package future_star;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
