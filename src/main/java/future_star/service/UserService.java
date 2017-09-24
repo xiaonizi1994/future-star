@@ -47,4 +47,7 @@ public class UserService {
                 .forEach(user->response.put(user.getKey(),user.getValue().getInfo()));
         return response;
     }
+    public void clear() {
+        userData.clear();
+    }
 }

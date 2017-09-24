@@ -1,15 +1,23 @@
 package future_star.dto;
 
+import lombok.Builder;
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
+
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * Created by twcn on 23/09/2017.
- */
+
+@Getter
+@Setter
+@Builder
+@ToString
 public class UserDTO {
     String name;
     String password;
     int age;
+    int id;
 
     public String getName() {
         return name;
